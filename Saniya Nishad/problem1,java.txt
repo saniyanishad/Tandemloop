@@ -1,0 +1,27 @@
+public class problem1 {
+    public void add(double a,double b){
+        System.out.println("addition:"+(a+b));
+    }
+    public void sub(double a,double b){
+        System.out.println("substraction:"+(a-b));
+    }
+    public void mul(double a,double b){
+        System.out.println("multiplication:"+(a*b));
+    }
+    public void div(double a,double b){
+        System.out.println("division:"+(a/b));
+    }
+}
+
+
+
+public class program1App {
+
+    public static void main(String[] args) {
+        problem1 p=new problem1();
+        p.add(11.5,12.67);
+        p.sub(34.678,67.58);
+        p.mul(58.76,89.65);
+        p.div(79.25,34.69);
+    }
+}
